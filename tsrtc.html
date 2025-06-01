@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form action="./wel.html">
+   <center> <img src="https://upload.wikimedia.org/wikipedia/en/0/05/TSRTC_LOGO.png" height="50" width="50"></center>
+
+ <center> <h3>TELANGANA STATE ROAD TRANSPORT CORPORATION</h3>
+   <h3>GENERAL BUS PASS APPLICATION</h3></center>
+
+   <fieldset >
+    
+          <legend>
+            Applicant Details
+          </legend>
+          <table>
+
+          <tr>
+         <td><label for="name">Name*</label></td>
+          <td><input type="text" id="name" name="name"></td>
+
+          <td><label for="FName">Father's/Guardian's Name*</label></td>
+          <td><input type="text" id="Fname" name="Fname"></td>
+        </tr>
+
+        <tr>
+          <td><label for="DOB">Date of Birth*</label></td>
+          <td><input type="text" id="DOB" name="DOB"></td>
+
+           <td><label for="">Gender*</label></td>
+         <td> <input type="radio" id="male" name="Gender" value="Male">
+          <label for="male">Male</label>
+          <input type="radio" id="Female" name="Gender" value="Female">
+          <label for="Female">Female</label>
+        </td>
+        </tr>
+
+        <tr>
+           <td><label for="age">Age as on*</label></td>
+           <td>
+          <input type="number" id="age" name="age" Style="width:30px" height="30px">Y &nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="number" id="age" name="age" maxlength="2" Style="width:30px" height="30px">M&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="number" id="age" name="age" maxlength="2" Style="width:30px" height="30px">D
+        </td>
+        </tr>
+          
+          <tr>
+           <td><label for="Wtsup no">Whatapp no*</label></td>
+         <td> <input type="text" id="Wtsup no" name="Wtsup no" minlength="10" maxlength="10"></td>
+
+                  <td><label for="AdharNo">Aadhar Num*</label></td>
+          <td><input type="Number" id="AdharNo" name="AdharNo" minlength="12" maxlength="12"></td>
+         </tr>
+          
+          <tr>
+           <td><label for="photo">Photo*</label></td>
+         <td> <input type="file" id="photo" name="photo" accept=".png , .jpg, "></td>
+
+          <td><label for="email">email*</label></td>
+          <td><input type="email" id="email" name="eamil"></td>
+          </tr>
+          </table>
+   </fieldset>
+
+
+   <fieldset>
+    <legend>Residential Address Details</legend>
+
+    <table>
+        <tr>
+            <td>
+                <label for="address">Application address*</label></td>
+                <td><textarea name="address"  rows="6" cols="20"></textarea>&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+
+            <td>
+                <label for="District" id="address">District*</label> </td>
+                <td>
+                <select name="District" id="District">
+              <option value="--select--" >--select--</option>
+              <option value="Kurnool">Kurnool</option>
+            <option value="Vizag">Vizag</option>
+               <option value="Kadapa">Kadapa</option>
+               </select>
+            </td>
+
+        </tr>
+
+         <tr>
+            <td>
+                <label for="mandal">Mandal*</label></td>
+                <td>
+                <select name="mandal" id="mandal">
+              <option value="--select--" >--select--</option>
+              <option value="kurnool">Kurnool</option>
+            <option value="Ongole">ongole</option>
+               <option value="Dhone">Dhone</option>
+               </select>
+            </td>
+
+
+
+              <td>
+                <label for="Village">Village*</label></td>
+                <td>
+                <select name="village" id="village">
+              <option value="--select--" >--select--</option>
+              <option value="Nannur">Nannur</option>
+            <option value="SR Puram">SR Puram</option>
+               <option value="kothapalli">Kothapalli</option>
+               </select>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <label for="pincode">pincode*</label></td>
+                <td><input type="text" name="pincode" id="pincode">
+            </td>
+        </tr>
+
+    </table>
+   </fieldset>
+
+   <fieldset>
+    <legend>
+        Pass Type Details
+    </legend>
+
+    <table>
+          <tr>
+            <td>
+                <label for="City">City*</label></td>
+                <td>
+                <select name="city" id="city">
+              <option value="--select--" >--select--</option>
+              <option value="C-Camp">C-Camp</option>
+            <option value="checkpost">Checkpost</option>
+               <option value="Nandikotukuru">nandikotukuru</option>
+               </select>
+            </td>
+        </tr>
+
+         <tr>
+            <td>
+                <label for="Pass type">Pass Type*</label></td>
+                <td>
+                <select name="pass type" id="Pass type">
+              <option value="--select--" >--select--</option>
+              <option value="Greater pass">Grater pass</option>
+            <option value="General pass">General pass</option>
+               <option value="Metro pass">metro pass</option>
+               </select>
+            </td>
+        </tr>
+
+    </table>
+   </fieldset>
+
+   <fieldset>
+    <legend>Mode of Payment & Pass Collection</legend>
+   
+
+<table>
+
+      <tr>
+            <td>
+                <label for="Payment Mode">Payment Mode*</label></td>
+                <td>
+                <select name="Payment Mode" id="Payment Mode">
+              <option value="--select--"  >--select Payment Mode--</option>
+              <option value="Payment at Counter">Payment at Counter</option>
+        
+               </select>
+            </td>
+        </tr>
+
+          <tr>
+            <td>
+                <label for="Pass Delivey Mode">Pass Delivery Mode*</label></td>
+                <td>
+                <select name="pPass Delivey Mode" id="Pass Delivey Mode">
+              <option value="--select Pass Delivery--" >--select pass delivey--</option>
+              <option value="At counter">At counter</option>
+  
+               </select>
+            </td>
+        </tr>
+
+          <tr>
+            <td>
+                <label for="Center at which you want to Collect Pass">Center at which you want to Collect Pass*</label></td>
+                <td>
+                <select name="Center at which you want to Collect Pass" id="Center at which you want to Collect Pass">
+              <option value="--select--" >--select--</option>
+              <option value="RTC Cross Road">RTC Cross Road</option>
+            <option value="RTC Ameerpet">RTC Ameerpet</option>
+               <option value="RTC Dilsukunagar">RTC Dilsukunagar</option>
+               <option value="RTC BHEL">RTC BHEL</option>
+               <option value="RTC LB nagar">RTC LB nagar</option>
+               </select>
+            </td>
+        </tr>
+</table>
+   </fieldset>
+
+  <center> <img src="https://e7.pngegg.com/pngimages/917/842/png-clipart-captcha-user-computer-program-computer-security-computer-software-computer-text-computer.png" height="50px">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCUDxa9ZRPPiJtfFQvugyPid2tOJOlxpGcKQ&s" height="50px" ><br>
+  <input type="text"><br>
+  <input type="submit" value="Submit">
+</center>
+</form>
+</body>
+</html>
