@@ -1,0 +1,33 @@
+body{
+    margin:0px
+    height: 600px;
+    justify-content:center;
+    align-items: center;
+     display:flex;
+}
+
+
+.maincontainer{
+    height: 480px;
+    width: 450px;
+ border:2px solid black;
+}
+.chandu{
+    display:flex;
+}
+.item{
+    height: 60px;
+    width:60px;
+}
+.item-1{
+    background-color: blueviolet;
+}
+.item-2{
+    background-color: azure;
+}
+i{
+    font-size: 25px;
+    color:red;
+     margin-top: 10px;
+    margin-left:10px;
+}
